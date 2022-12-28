@@ -1,0 +1,16 @@
+.react-pdf__Page__textContent {
+  display: none;
+}
+
+.page_container {
+  overflow-y: hidden;
+  width: fit-content;
+  /* height: fit-content; */
+  border: 1px solid;
+}
+
+.page_item {
+  border: 1px solid;
+  width: fit-content;
+  height: 750px;
+}
