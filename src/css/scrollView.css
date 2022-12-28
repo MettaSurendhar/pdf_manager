@@ -1,0 +1,16 @@
+.scroll_item {
+  height: 750px;
+  border: 1px solid;
+  width: fit-content;
+}
+/* .scroll_shell {
+  height: fit-content;
+  border: 1px solid;
+  width: fit-content;
+} */
+
+.scroll_container {
+  overflow-y: hidden;
+  border: 1px solid;
+  width: fit-content;
+}
