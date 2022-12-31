@@ -4,6 +4,7 @@ import "./css/App.css";
 import DocumentList from "./components/documentList";
 import PageView from "./components/pageView";
 import ScrollView from "./components/scrollView";
+import DocumentPage from "./components/documentPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<DocumentList />} />
+            <Route path="/document" element={<DocumentPage />} />
             <Route path="/page" element={<PageView />} />
             <Route path="/scroll" element={<ScrollView />} />
           </Routes>
